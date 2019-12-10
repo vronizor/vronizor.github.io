@@ -6,6 +6,7 @@ grand_parent: Teaching
 nav_order: 2
 ---
 
+$$s_{xy} = \frac{1}{n-1} \sum^n_{i=1} (x_i-\bar{x}) (y_i-\bar{y})$$
 
 # Tutorial 2 — A3
 
@@ -43,34 +44,34 @@ nav_order: 2
 
 - The range of values within the central 50% of observations
 
-$$\mathit{IQR} = Q_3 - Q_1$$
+- $\mathit{IQR} = Q_3 - Q_1$
 
 - OR the range of values between the 1st and 2nd quartile
 
-## Outliers
+## Outliers & boxplot
 
 - Procedure
 
-  - Calculate $$\mathit{IQR} = Q_3 - Q_1$$
+  - Calculate $\mathit{IQR} = Q_3 - Q_1$
   - Multiply $\mathit{IQR} \times 1.5$
   - Observation outlier if $x_i > Q_3 + 1.5 \times \mathit{IQR}$ (upper bound)
   - OR $x_i < Q_1 - 1.5 \times \mathit{IQR}$ (lower bound)
 
   ```
-  Q1-1.5*IQR			   Q1		   Median	 Q3      Q3+1.5*IQR
-                     —————————————————
-  * |----------------|				 |			|-----------|    * *
-  									 —————————————————
+  Q1-1.5*IQR     Q1     Median   Q3      Q3+1.5*IQR
+                  -----------------
+  * |-------------|        |      |----------|    * *
+                  -----------------
   ```
 
 ## Variance and standard deviation
 
-- Range: Max-Min
-- Mean Absolute deviation (MAD): avg absolute difference from the mean $ \frac{1}{n-1} \sum^2_{i=1} |x_i - \bar{x}|$
-- **Variance**: average square distance from the mean $s^2 = \frac{1}{n-1} \sum^2_{i=1} (x_i - \bar{x})^2$
-  - Square *punishes* more the observations far form the mean
-- **Standard deviation**: $s = \sqrt{\mathit{s^2}} = \sqrt{\frac{1}{n-1} \sum^2_{i=1} (x_i - \bar{x})^2}$
-- Coeff of variation: "standardizes" std dev: makes it comparable accross datasets $\mathit{CV}= \frac{s}{\bar{x}}$
+* Range: Max-Min
+* Mean Absolute deviation (MAD): avg absolute difference from the mean $\frac{1}{n-1} \sum^2_{i=1} (x_i - \bar{x})$
+* **Variance**: average square distance from the mean $s^2 = \frac{1}{n-1} \sum^2_{i=1} (x_i - \bar{x})^2$
+  * Square *punishes* more the observations far form the mean
+* **Standard deviation**: $s = \sqrt{\mathit{s^2}} = \sqrt{\frac{1}{n-1} \sum^2_{i=1} (x_i - \bar{x})^2}$
+* Coeff of variation: "standardizes" std dev: makes it comparable accross datasets $\mathit{CV}= \frac{s}{\bar{x}}$
 
 ## Z-scores, standardization
 
@@ -82,7 +83,7 @@ $$\mathit{IQR} = Q_3 - Q_1$$
 
 ## Covariance vs correlation
 
-- Covariance formula: $ s_{xy} = \frac{1}{n-1} \sum^n_{i=1} (x_i-\bar{x}) (y_i-\bar{y}) $
+- Covariance formula: $s_{xy} = \frac{1}{n-1} \sum^n_{i=1} (x_i-\bar{x}) (y_i-\bar{y})$
   - Looks familiar no? It's basically the variance, but for two different variables
   - How does a variable move relative to another?
 - Correlation: $ r_{xy} = \frac{s_{xy}}{s_x s_y} $ that is $ \frac{\mathit{Cov}_{xy}}{\mathit{Var}_x \times \mathit{Var}_y} $
