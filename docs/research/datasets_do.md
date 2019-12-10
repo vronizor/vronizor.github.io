@@ -7,6 +7,9 @@ parent: Research
 
 # Datasets and do-files
 
+Striving towards meeting [FAIR](https://www.force11.org/group/fairgroup/fairprinciples) data principles.
+{: .fs-4 .fw-300 }
+
 ### Sticking Together: The impact of cooperatives on forced displacement in Colombia
 
 1. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/master_panel.dta" download>Master dataset, Stata format</a>
@@ -19,6 +22,8 @@ parent: Research
     5. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/3m_reg3.do.dta" download>3m_reg3.do</a>
     6. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/4m_sidereg.do" download>4m_sidereg.do</a>
 
+<span class="fs-3">
 [Download .zip](https://vronizor.github.io/docs/research/assets/data_msc_thesis/data_msc_thesis.zip){: .btn .btn-outline }
+</span>
 
-[Back to papers](research.html){: .btn .btn-outline }
+[Back to papers](research.html){: .btn .btn-outline  .mt-6 }
