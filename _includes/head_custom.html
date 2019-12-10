@@ -19,3 +19,25 @@ onload="renderMathInElement(document.body, {
         {left: '\\[', right: '\\]', display: true},
     ],
 });"></script>
+
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("abst");
+      var btnText = document.getElementById("btn_abst");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Abstract"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Hide"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+
+<style>
+    #more {display: none;}
+</style>

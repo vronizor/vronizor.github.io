@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Teaching
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 
 # Teaching
 
-On this page, you will find the course material and evaluations for classes I thaught.
+Course material and evaluations.
 {: .fs-6 .fw-300 }
