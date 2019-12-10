@@ -33,6 +33,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
+  - jemoji
 
 remote_theme: pmarsceill/just-the-docs
 
