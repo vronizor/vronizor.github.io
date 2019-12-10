@@ -7,8 +7,9 @@ nav_order: 8
 ---
 
 # Tutorial 8 — C9
+{: .no_toc }
 
-* TOC
+1. TOC
 {:toc}
 
 ## Null hypothesis and alternative hypothesis

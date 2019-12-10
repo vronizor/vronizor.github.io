@@ -7,8 +7,9 @@ nav_order: 7
 ---
 
 # Tutorial 7 — C8
+{: .no_toc }
 
-* TOC
+1. TOC
 {:toc}
 
 ## Point estimator

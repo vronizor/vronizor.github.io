@@ -6,10 +6,10 @@ grand_parent: Teaching
 nav_order: 3
 ---
 # Tutorial 3 — B4
+{: .no_toc }
 
-* TOC
+1. TOC
 {:toc}
-
 
 ## Permutations vs. Combinations
 

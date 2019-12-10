@@ -7,8 +7,9 @@ nav_order: 1
 ---
 
 # Tutorial 1 — A1/A2
+{: .no_toc }
 
-* TOC
+1. TOC
 {:toc}
 
 ## Topic A1

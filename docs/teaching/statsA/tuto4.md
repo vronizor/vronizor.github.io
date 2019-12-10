@@ -7,10 +7,10 @@ nav_order: 4
 ---
 
 # Tutorial 4 — B5
+{: .no_toc }
 
-* TOC
+1. TOC
 {:toc}
-
 
 ## Discrete vs Continuous RV
 

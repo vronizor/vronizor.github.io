@@ -7,8 +7,9 @@ nav_order: 6
 ---
 
 # Tutorial 6 — C7
+{: .no_toc }
 
-* TOC
+1. TOC
 {:toc}
 
 ## Sampling methods

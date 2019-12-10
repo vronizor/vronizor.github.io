@@ -7,10 +7,10 @@ nav_order: 5
 ---
 
 # Tutorial 5 — B6
+{: .no_toc }
 
-* TOC
+1. TOC
 {:toc}
-
 
 ## Probability density function $f(x)$
 
