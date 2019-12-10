@@ -10,7 +10,7 @@ parent: Research
 ### Sticking Together: The impact of cooperatives on forced displacement in Colombia
 
 1. <a href="{{ site }}/docs/research/assets/data_msc_thesis/master_panel.dta" download>Master dataset, Stata format</a>
-2. Master dataset, CSV format
+2. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/master_panel.csv" download>Master dataset, CSV format
 3. Do-files 
     1. 1m_merge.do
     2. 1m_describe.do
