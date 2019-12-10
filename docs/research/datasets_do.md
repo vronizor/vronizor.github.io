@@ -9,16 +9,16 @@ parent: Research
 
 ### Sticking Together: The impact of cooperatives on forced displacement in Colombia
 
-1. <a href="{{ site }}/docs/research/assets/data_msc_thesis/master_panel.dta" download>Master dataset, Stata format</a>
-2. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/master_panel.csv" download>Master dataset, CSV format
+1. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/master_panel.dta" download>Master dataset, Stata format</a>
+2. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/master_panel.csv" download>Master dataset, CSV format</a>
 3. Do-files 
-    1. 1m_merge.do
-    2. 1m_describe.do
-    3. 3m_reg1.do
-    4. 3m_reg2.do
-    5. 3m_reg3.do
-    6. 4m_sidereg.do
+    1. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/1m_merge.do" download>1m_merge.do</a>
+    2. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/2m_describe.do" download>2m_describe.do</a>
+    3. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/3m_reg1.do.dta" download>3m_reg1.do</a>
+    4. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/3m_reg2.do.dta" download>3m_reg2.do</a>
+    5. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/3m_reg3.do.dta" download>3m_reg3.do</a>
+    6. <a href="https://vronizor.github.io/docs/research/assets/data_msc_thesis/4m_sidereg.do" download>4m_sidereg.do</a>
 
-[Download .zip](){: .btn .btn-outline }
+[Download .zip](https://vronizor.github.io/docs/research/assets/data_msc_thesis/data_msc_thesis.zip){: .btn .btn-outline }
 
 [Back to papers](research.html){: .btn .btn-outline }
