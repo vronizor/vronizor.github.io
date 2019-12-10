@@ -4,18 +4,26 @@ title: "Anthropologie économique"
 date:   2018-08-21 12:47:51 +0200
 parent: Book summaries
 grand_parent: Study
-nav_order: 1
+nav_order: 99
 ---
 
 
 # Anthropologie Economique
+{: .no_toc .d-inline-block }
+
+Work in progress
+{: .label .label-yellow }
+
+## Cours au Collège de France 1992-1993
 {: .no_toc }
 
-Pierre Bourdieu, Cours au Collège de France 1992-1993
+Pierre Bourdieu, Raisons d'agir, Seuil, 2017
 {: .fs-4 .fw-300 }
 
 1. TOC
-{:toc}
+{:toc }
+
+---
 
 ## Cours I
 
