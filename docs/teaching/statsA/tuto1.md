@@ -1,40 +1,18 @@
 ---
-layout: post
-title:  "Tutorial 1 — A1/A2"
+layout: default
+title: "Tutorial 1 — A1/A2"
+parent: statsA
+nav_order: 1
 ---
 
-# ECU11021 Tutorial 1 — A1/A2
+# Tutorial 1 — A1/A2
 
 * TOC
 {:toc}
 
-## Logistics
+## Topic A1
 
-- Main email for the course is [ECU11021A@tcd.ie](mailto:ECU11021A@tcd.ie)
-- My personal email [thornev@tcd.ie]()
-- Blackboard should contain all the info you need, but feel free to contact us
-- Use the Office Hours: mine are Thursdays 14h30-15h30, starting next week. Room next to the economics department (3rd level Arts building), all hours posted there and on the Blackboard
-
-## Studying environment
-
-- Ask every question you may have.
-- No right or wrong answers, just doubts you need to clarify
-- Learning happens when you ask silly questions, please go ahead
-- I'm not the lecturer, we're in a small group, and they'll be no judgement.
-- Try my best to learn names, but I have 4 other groups, so don't take it personnaly if I forget!
-
-## Structure of class
-
-- Start by clarifying any from the previous homework
-- Run throught the main concepts of this week's lecture
-- Help you on the resolution of current HW
-- No previous HW so let's jump straight to key concepts
-
-## Key concepts (15min)
-
-### Topic A1
-
-#### Difference between descriptive and inferential statistics
+### Difference between descriptive and inferential statistics
 
 **Descriptive**, well… describe a population or a sample. Tells about the features of the data. Examples of desciptive statistics?
 
@@ -46,13 +24,13 @@ title:  "Tutorial 1 — A1/A2"
 
 Bottom line: we need representativeness in our samples
 
-#### Data types
+### Data types
 
 A good way to think about data types is to think in terms of two dimensions: time and individuals/subjects.
 
 It's a very simple model: time and subject can take either value '1' or 'many'. So a the start, you have 1 time point and 1 individual. But you can't say much with that can you? That's just anecdotal evidence. So let's see what we get when we expand these dimensions.
 
-#### Cross-sectional data
+### Cross-sectional data
 
 A bunch of individuals, at one period in time
 
@@ -63,17 +41,17 @@ Like a snapshot: you observe 100ppl at time T
 
 The key is that it only looks at one specific time point or (or period, summarized as a point).
 
-#### Time series data
+### Time series data
 
 One individual over time. It's like a tracker measuring a specific variable over time. Like your step counter on your phone or smartwatch, or you personal daily consumption of Guiness over the month.
 
-#### Panel data
+### Panel data
 
 It's a tracker on a bunch of people. So it would be getting all of you guys' step counter and appending them together to form one dataset: a panel data set. In terms of Guiness consumption, it's your and your classmates daily consumption over the month, for example.
 
 [Show examples of how it appears in a table, stat software]
 
-#### Quantitative vs qualitative variables
+### Quantitative vs qualitative variables
 
 **Quantitative** is basically stuff you can measure with numbers. Any examples?
 
@@ -92,15 +70,15 @@ It's a tracker on a bunch of people. So it would be getting all of you guys' ste
 
 Coded in what is called a dummy variable.
 
-#### Discrete vs continuous variables
+### Discrete vs continuous variables
 
 [Done above]
 
-#### Nominal vs ordinal variables
+### Nominal vs ordinal variables
 
 [Done above]
 
-#### Interval vs Ratio
+### Interval vs Ratio
 
 **Interval** when the interval between two values is meaningful.
 
@@ -110,53 +88,43 @@ Temperature: C° or F° ar *interval*, Kelvins are *ratio*.
 
 ---
 
-### Topic A2
+## Topic A2
 
 In this topic we divide quantitative data in classes. It can be arbitrary, or based on some classification.
 
-#### Absolute frequency
+### Absolute frequency
 
 It's the absolute number of times this category appears in your data.
 
-#### Relative frequency
+### Relative frequency
 
 It's the absolute times it appears divided by the total number of observations
 
-#### Cumulative frequency
+### Cumulative frequency
 
 When categories are ordered, you can "stack" the absolute frequencies (total goes to the total number of observations).
 
-#### Cumulative relative frequency
+### Cumulative relative frequency
 
 Same as above but with relative frequencies (total 100%).
 
-#### Histogram
+### Histogram
 
 Visual representation of frequency distribution. Two main characteristics:
 
 - Heights: frenquency
 - Width: class width
 
-#### Polygon
+### Polygon
 
 Same, but linking the top of the bars together
 
-#### Ogive
+### Ogive
 
 Plots the cumulative relative frequency. The x-axis represents the upper limits of each classes.
 
-#### Scatter plots
+### Scatter plots
 
 It's a spatial representation of two variables and shows their relationship together.
 
 When hours of the day vary, does Guiness consumption vary? If you plot time as the x-axis and pints on the y-axis, can we draw the scatter plot?
-
-## Previous Homework (15min)
-
-Nothing this week.
-
-## Next Homework (20min)
-
-Question 3 and 4.
-
-[Ordinal vs Nominal for dates vs days]
