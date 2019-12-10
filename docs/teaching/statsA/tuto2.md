@@ -1,13 +1,16 @@
 ---
 layout: default
 title: "Tutorial 2 — A3"
-parent: statsA
+parent: Maths and Statistics A
+grand_parent: Teaching
 nav_order: 2
 ---
 
 
 # Tutorial 2 — A3
 
+* TOC
+{:toc}
 
 ## Mean vs Median vs Mode
 
@@ -39,14 +42,16 @@ nav_order: 2
 ## Inter quantile range (IQR)
 
 - The range of values within the central 50% of observations
-- $$\mathit{IQR} = Q_3 - Q_1  $$
+
+$$\mathit{IQR} = Q_3 - Q_1$$
+
 - OR the range of values between the 1st and 2nd quartile
 
 ## Outliers
 
 - Procedure
 
-  - Calculate $\mathit{IQR} = Q_3 - Q_1  $
+  - Calculate $$\mathit{IQR} = Q_3 - Q_1$$
   - Multiply $\mathit{IQR} \times 1.5$
   - Observation outlier if $x_i > Q_3 + 1.5 \times \mathit{IQR}$ (upper bound)
   - OR $x_i < Q_1 - 1.5 \times \mathit{IQR}$ (lower bound)
