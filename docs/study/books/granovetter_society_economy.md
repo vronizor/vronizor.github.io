@@ -193,7 +193,7 @@ Large economic organizations often combine trust, norms and power. But trust is 
 
 ### Introduction: the Varieties of Power in the Economy
 
-Weber's definition: " power is the probability that one actor within a social relationship will be in a position to carry out his own will despite resistance, regardless of the basis on which this probability rests." Definition is agnostic to sources of power. Defines domination as the probability that a command will be obeyed by a given group of person.
+Weber's definition: "power is the probability that one actor within a social relationship will be in a position to carry out his own will despite resistance, regardless of the basis on which this probability rests." Definition is agnostic to sources of power. Defines domination as the probability that a command will be obeyed by a given group of person.
 
 #### Economic Power Based on Dependence
 

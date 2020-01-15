@@ -110,3 +110,5 @@ A way to update probabilities: from prior $P(B)$ to updated (i.e. conditional on
 $ P(B\mid A) = \frac{P(A \mid B) \times P(B)}{P(A \mid B) \times P(B) + P(A \mid B^c) \times P(B^c)} = \frac{P(A \cap B)}{P(A)}$
 
 [Supplementary Bayes' theorem material](assets/tuto3_supp.pdf)
+
+[Great video explanation](https://www.youtube.com/watch?v=HZGCoVF3YvM) (and great YouTube channel)
