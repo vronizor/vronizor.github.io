@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Teaching
+title: Teach
 nav_order: 2
 has_children: true
 ---
 
-# Teaching
+# Teach
 
 Course material and evaluations.
 {: .fs-6 .fw-300 }

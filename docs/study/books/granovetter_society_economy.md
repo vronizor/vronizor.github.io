@@ -219,3 +219,58 @@ Weber's legitimacy grounds for following the law: (1) "legal-rational", where ag
 
 #### Economic Power Based on Control of Agenda and Discourse
 
+To determine what the issues *are* in the first place is a form of power, because it can prevent important decisions to ever reach the political agenda. Those with interest in the status quo might not want to take a strong position on an issue, thus disabling any kind of opposition.
+
+Controlling the agenda can also imply controlling the realm of *ideas* that generate the social and political agenda that people pursue. The financial system and crisis of 2007-8 is an example: policy positions were mostly populated by people with financial institution origins.
+
+Resonates with Foucault’s argument that elites tend to be les and less visible, as seen with the gradual change in male clothing style.
+
+#### Relations among Types of Power
+
+In practice, these different types of power constantly interact, one feeding the next one and so on.
+
+### Power and Social Structure
+
+Exploring under which circumstances which actors wield and combine different types of power.
+
+#### Power Based on Individual Characteristics
+
+Individual characteristics only explain a tiny fraction of individual power. Also shown for a variety of non-human animal species.
+
+#### Power and Social Network Position
+
+Classically, some argued that power depended on one’s position within the network, the more central the more powerful. But an important distinction needs to be made between positively correlated networks and negatively correlated ones. Positively connected networks tend to favour the central nodes, while the same nodes are the least powerful ones in negatively correlated ones, which can depict situations of monopoly for example.
+
+### Brokerage
+
+However, others (amongst which the author) argue that power lies in the nodes which connect two tightly knit networks. The brokers are the nodes which can extract substantive advantages. Two types of brokers to distinguish: *tertius gaudens*, “the one who enjoys”, playing the two other actors against each other, and *tertius iungens*, “the one who joins”, bringing the actors together.
+
+#### Brokerage beyond Small Groups
+
+An actor in a strategic position only has power insofar as the two cliques want to trade: knowledge does not equal power. There also might be some preferences to not trade without outsiders.
+
+Using power to shape the issues decreases the amount of power, because there are some expectations on brokers’ behavior.
+
+Typology of brokerage: (1) coordinates its own members, (2) coordinates members of another group, (3) brings members of another group within his own (gatekeeper), (4) brings his members within another one (representative role), and (5) brings two different groups together (arbitrator).
+
+Power is maintained as long as a representative or gatekeeper stays impartial. Cosimo de Medici example: sphinxlike, not expressing clearly his positions and having many concurrent parallel interests, difficult to read for outsiders and making it hard for them to coalesce against him.
+
+#### Brokerage, Entrepreneurship, and Spheres of Exchange
+
+The economist (Austrian) approach (Kirzner) and the anthropological (Barth) one. The entrepreneur for the economist takes advantage of arbitrage, meaning he gets something cheaper somewhere and sells it for more somewhere else. He takes advantage of a structural hole to his profit, and helps the economy to reach its equilibrium, because his arbitrage cannot stay secret and others will follow his path until there is no profits to be made anymore. This ability to see and take advatage of the structural hole is thanks to his agility and reactivity, in strong contrast with classical (Walrasian) economists who think this happens naturally by an “auctioning” mechanism.
+
+On the other hand, the anthropological approach insists on the existance of parallel spheres of exchange between which goods can not commensurate to one another. Example of wage labour for Sudanese Fur, which should only be paid in millet or millet beer. The Arabs exploited that and paid them in beer for their work on tomato fields, but the beer value was much lower than that of the tomatoes on the market. Arabs also acted as entrepreneurs, but between different spheres of exchange, while Kirzner’s entrepreneur arbitrages between different groups which are not in contact.
+
+How long can this last? For the economist, not long: people will find out and enter the business. An important element seems to be not to brag about it and keep one’s intentions hidden.
+
+#### Brokerage, Power, Elites, and “Small Worlds”
+
+Small world problem is the fact that, despite high clustering of people, there are very few links between two randmly draw people in any network (e.g. around 6 for the US). The key element is that there are a few actors that bridge clusters and these dramatically shorten path length.
+
+There is a large literature on elites and and the impact of their interconnections. A popular idea is that of the “power elites” where political, economic and military circles overlap and shape decision. E.g. when a former general is appointed to as Secretary of Defence, etc. Similar story with companies sending their managers to sit on other companies’ boards. Creates class cohesion.
+
+There seems to have been a shift in the elites from the 80s, towards “financilization”, where companies are owned by investment banks and hedge funds with little interest in corporate governance, rather focusing on share price and investment returns. This made CEOs less secure and more “selfish”, and the class became increasingly inneffectual. “Board interlocking” doesn’t tell us who has power anymore.
+
+In conclusion, weak ties are important in some specific historical and institutional contexts, but not always.
+
+### Macro-Level Perspectives on Economic Power

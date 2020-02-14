@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Maths and Statistics A
-parent: Teaching
+parent: Teach
 nav_order: 1
 has_children: true
 ---
