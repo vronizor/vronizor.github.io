@@ -14,11 +14,11 @@ Introduction to statistics, first year undergraduates.
 
 ## Course material
 
-- [Topic A1/A2 — Introducing Statistics + Tables & Graphs]({{ site.url }}/teach/statsA/tuto1.html)
-- [Topic A3 — Summary Statistics]({{ site.url }}/teach/statsA/tuto2.html)
-- [Topic B4 — Introducing Probability]({{ site.url }}/teach/statsA/tuto3.html)
-- [Topic B5 — Discrete Distributions]({{ site.url }}/teach/statsA/tuto4.html)
-- [Topic B6 — Continuous Distributions]({{ site.url }}/teach/statsA/tuto5.html)
-- [Topic C7 — Sampling]({{ site.url }}/teach/statsA/tuto6.html)
-- [Topic C8 — Estimation]({{ site.url }}/teach/statsA/tuto7.html)
-- [Topic C9 — Hypothesis Testing]({{ site.url }}/teach/statsA/tuto8.html)
+- [Topic A1/A2 — Introducing Statistics + Tables & Graphs]({{ site.url }}/docs/teach/statsA/tuto1.html)
+- [Topic A3 — Summary Statistics]({{ site.url }}/docs/teach/statsA/tuto2.html)
+- [Topic B4 — Introducing Probability]({{ site.url }}/docs/teach/statsA/tuto3.html)
+- [Topic B5 — Discrete Distributions]({{ site.url }}/docs/teach/statsA/tuto4.html)
+- [Topic B6 — Continuous Distributions]({{ site.url }}/docs/teach/statsA/tuto5.html)
+- [Topic C7 — Sampling]({{ site.url }}/docs/teach/statsA/tuto6.html)
+- [Topic C8 — Estimation]({{ site.url }}/docs/teach/statsA/tuto7.html)
+- [Topic C9 — Hypothesis Testing]({{ site.url }}/docs/teach/statsA/tuto8.html)
