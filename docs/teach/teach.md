@@ -13,6 +13,8 @@ Course material.
 
 ## Trinity College Dublin
 
-[Mathematics and Statistics A]({{ site.url }}/docs/statsA/statsA.html), 2019
-[Mathematics and Statistics B]({{ site.url }}/docs/mathsB/mathsB.html), 2020
-[Economy of Ireland A]({{ site.url }}/docs/econIrA/econIrA.html), 2020
+[ECU11021 Mathematics and Statistics A]({{ site.url }}/docs/statsA/statsA.html), 2019
+
+[ECU11022 Mathematics and Statistics B]({{ site.url }}/docs/mathsB/mathsB.html), 2020
+
+[ECU22021 Economy of Ireland A]({{ site.url }}/docs/econIrA/econIrA.html), 2020
