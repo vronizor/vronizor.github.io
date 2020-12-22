@@ -10,19 +10,18 @@ has_toc: false
 
 ## Work in progress
 
-#### Bicycle-sharing systems: cycling towards cleaner cities?
+### Bicycle-sharing systems: cycling towards cleaner cities?
 
-#### Constructing Africa’s Cities: Measuring and Enhancing Construction Worker Welfare in Dakar
+### Constructing Africa’s Cities: Measuring and Enhancing Construction Worker Welfare in Dakar
 
 with [Martina Kirchberger](https://sites.google.com/site/mkirchberger/home) (Trinity College Dublin), [Carol Newman](https://www.carolnewman.ie/) (Trinity College Dublin) and [Sveta Milusheva](https://www.svetamilusheva.com/) (The World Bank)
-{: .lh-tight .fs-3 .fw-300 }
+{: .lh-tight .fw-300 }
 
 
 
 ## Other work
 
 ### [Sticking Together: The impact of cooperatives on forced displacement in Colombia]({{ site.url }}/docs/research/assets/coop-colombia/coop-colombia.pdf)
-<!-- {: .lh-tight .fw-500 } -->
 
 MSc Thesis, Universitat de Barcelona, 2018. Advisor: Prof. [Enrique López-Bazo](https://ideas.repec.org/e/plo11.html)
 {: .lh-tight .fw-300 }
