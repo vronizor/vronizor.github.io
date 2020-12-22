@@ -2,7 +2,7 @@
 layout: default
 title: "Tutorial 1 — A1/A2"
 parent: Maths and Statistics A
-grand_parent: Teaching
+grand_parent: Teach
 nav_order: 1
 ---
 

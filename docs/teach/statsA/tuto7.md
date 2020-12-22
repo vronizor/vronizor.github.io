@@ -2,7 +2,7 @@
 layout: default
 title: "Tutorial 7 — C8"
 parent: Maths and Statistics A
-grand_parent: Teaching
+grand_parent: Teach
 nav_order: 7
 ---
 
