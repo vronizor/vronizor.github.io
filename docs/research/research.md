@@ -12,8 +12,10 @@ has_toc: false
 
 Bicycle-sharing systems: cycling towards cleaner cities?
 
-{ Constructing Africa’s Cities: Measuring and Enhancing Construction Worker Welfare in Dakar : .fw-500 }<br/>
+Constructing Africa’s Cities: Measuring and Enhancing Construction Worker Welfare in Dakar
+{: .lh-0 .fw-500}
 with [Martina Kirchberger](https://sites.google.com/site/mkirchberger/home) (Trinity College Dublin), [Carol Newman](https://www.carolnewman.ie/) (Trinity College Dublin) and [Sveta Milusheva](https://www.svetamilusheva.com/) (The World Bank)
+{: .fs-5}
 
 
 
