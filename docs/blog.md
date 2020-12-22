@@ -21,7 +21,7 @@ ul.posts span {
 }
 </style>
 
-# Blog entries
+# {{ page.title }}
 
 <ul class="posts">
    {% for post in site.posts %}
