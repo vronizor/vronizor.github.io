@@ -2,7 +2,7 @@
 layout: default
 title: Maths and Statistics A
 parent: Teach
-nav_order: 1
+nav_order: 99
 has_children: true
 has_toc: false
 ---
