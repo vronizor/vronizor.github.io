@@ -4,4 +4,4 @@ _site
 .DS_*
 /docs/study/
 docs/study/
-docs/study
+*docs/study*
