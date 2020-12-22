@@ -7,8 +7,8 @@ parent: Research
 
 # Datasets and do-files
 
-Striving towards meeting [FAIR](https://www.force11.org/group/fairgroup/fairprinciples) data principles.
-{: .fs-4 .fw-300 }
+<!-- Striving towards meeting [FAIR](https://www.force11.org/group/fairgroup/fairprinciples) data principles.
+{: .fs-4 .fw-300 } -->
 
 ### Sticking Together: The impact of cooperatives on forced displacement in Colombia
 

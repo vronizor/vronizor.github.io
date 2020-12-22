@@ -14,7 +14,7 @@ Bicycle-sharing systems: cycling towards cleaner cities?
 {: .fw-500 }
 
 Constructing Africa’s Cities: Measuring and Enhancing Construction Worker Welfare in Dakar
-{: .fw-500 }
+{: .lh-tight .fw-500 }
 with [Martina Kirchberger](https://sites.google.com/site/mkirchberger/home) (Trinity College Dublin), [Carol Newman](https://www.carolnewman.ie/) (Trinity College Dublin) and [Sveta Milusheva](https://www.svetamilusheva.com/) (The World Bank)
 {: .lh-tight .fs-3 }
 
@@ -23,7 +23,7 @@ with [Martina Kirchberger](https://sites.google.com/site/mkirchberger/home) (Tri
 ## Other work
 
 [Sticking Together: The impact of cooperatives on forced displacement in Colombia]({{ site.url }}/docs/research/assets/coop-colombia/coop-colombia.pdf)
-{: .fw-500 }
+{: .lh-tight .fw-500 }
 MSc Thesis, Universitat de Barcelona, 2018. Advisor: Prof. [Enrique López-Bazo](https://ideas.repec.org/e/plo11.html)
 {: .lh-tight .fs-3 }
 
