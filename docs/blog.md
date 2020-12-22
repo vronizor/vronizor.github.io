@@ -22,6 +22,7 @@ ul.posts span {
 </style>
 
 # {{ page.title }}
+{: .d-inline-block }
 
 Work in progress
 {: .label .label-yellow }

@@ -19,8 +19,15 @@ Work in progress
 Mark Granovetter, Harvard University Press, 2017
 {: .fs-4 .fw-300 }
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
-{:toc }
+{:toc}
+</details>
+
 
 ---
 

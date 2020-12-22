@@ -20,8 +20,15 @@ Work in progress
 Pierre Bourdieu, Raisons d'agir, Seuil, 2017
 {: .fs-4 .fw-300 }
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
-{:toc }
+{:toc}
+</details>
+
 
 ---
 
