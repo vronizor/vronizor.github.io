@@ -1,14 +1,12 @@
 ---
 layout: default
-title: "Tutorial 1 — A1/A2"
+title: "Topic A1/A2 — Introducing Statistics + Tables & Graphs"
 parent: Maths and Statistics A
 grand_parent: Teach
 nav_order: 1
 ---
 
-# Tutorial 1 — A1/A2
-
-
+# Topic A1/A2 — Introducing Statistics + Tables & Graphs
 
 <details open markdown="block">
   <summary>
@@ -19,7 +17,7 @@ nav_order: 1
 {:toc}
 </details>
 
-## Topic A1
+## Topic A1 — Introducing Statistics
 
 ### Difference between descriptive and inferential statistics
 
@@ -97,7 +95,7 @@ Temperature: C° or F° ar *interval*, Kelvins are *ratio*.
 
 ---
 
-## Topic A2
+## Topic A2 — Tables & Graphs
 
 In this topic we divide quantitative data in classes. It can be arbitrary, or based on some classification.
 

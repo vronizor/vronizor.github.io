@@ -1,16 +1,21 @@
 ---
 layout: default
-title: "Tutorial 5 — B6"
+title: "Topic B6 — Continuous Distributions"
 parent: Maths and Statistics A
 grand_parent: Teach
 nav_order: 5
 ---
 
-# Tutorial 5 — B6
-{: .no_toc }
+# Topic B6 — Continuous Distributions
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Probability density function $f(x)$
 

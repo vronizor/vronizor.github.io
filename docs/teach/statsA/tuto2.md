@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Tutorial 2 — A3"
+title: "Topic A3 — Summary Statistics"
 parent: Maths and Statistics A
 grand_parent: Teach
 nav_order: 2
@@ -8,11 +8,16 @@ nav_order: 2
 
 $$s_{xy} = \frac{1}{n-1} \sum^n_{i=1} (x_i-\bar{x}) (y_i-\bar{y})$$
 
-# Tutorial 2 — A3
-{: .no_toc }
+# Topic A3 — Summary Statistics
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Mean vs Median vs Mode
 

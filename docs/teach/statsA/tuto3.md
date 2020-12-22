@@ -1,15 +1,20 @@
 ---
 layout: default
-title: "Tutorial 3 — B4"
+title: "Topic B4 — Introducing Probability"
 parent: Maths and Statistics A
 grand_parent: Teach
 nav_order: 3
 ---
-# Tutorial 3 — B4
-{: .no_toc }
+# Topic B4 — Introducing Probability
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Permutations vs. Combinations
 

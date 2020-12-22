@@ -1,16 +1,21 @@
 ---
 layout: default
-title: "Tutorial 7 — C8"
+title: "Topic C8 — Estimation"
 parent: Maths and Statistics A
 grand_parent: Teach
 nav_order: 7
 ---
 
-# Tutorial 7 — C8
-{: .no_toc }
+# Topic C8 — Estimation
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Point estimator
 

@@ -29,8 +29,8 @@ url: "https://vronizor.github.io" # the base hostname & protocol for your site, 
 aux_links:
   "Twitter":
     - "https://twitter.com/vincent_thorne"
-  "Cards4Pics":
-  - "docs/cards4pics.html"
+  # "Cards4Pics":
+  # - "docs/cards4pics.html"
 
 footer_content: 'Copyright &copy; 2019-2020 Vincent Thorne. The content of this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.'
 

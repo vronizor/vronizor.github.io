@@ -1,16 +1,21 @@
 ---
 layout: default
-title: "Tutorial 6 — C7"
+title: "Topic C7 — Sampling"
 parent: Maths and Statistics A
 grand_parent: Teach
 nav_order: 6
 ---
 
-# Tutorial 6 — C7
-{: .no_toc }
+# Topic C7 — Sampling
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Sampling methods
 

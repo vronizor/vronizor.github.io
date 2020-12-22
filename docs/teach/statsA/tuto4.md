@@ -1,16 +1,21 @@
 ---
 layout: default
-title: "Tutorial 4 — B5"
+title: "Topic B5 — Discrete Distributions"
 parent: Maths and Statistics A
 grand_parent: Teach
 nav_order: 4
 ---
 
-# Tutorial 4 — B5
-{: .no_toc }
+# Topic B5 — Discrete Distributions
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Discrete vs Continuous RV
 

@@ -1,16 +1,21 @@
 ---
 layout: default
-title: "Tutorial 8 — C9"
+title: "Topic C9 — Hypothesis Testing"
 parent: Maths and Statistics A
 grand_parent: Teach
 nav_order: 8
 ---
 
-# Tutorial 8 — C9
-{: .no_toc }
+# Topic C9 — Hypothesis Testing
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Null hypothesis and alternative hypothesis
 
