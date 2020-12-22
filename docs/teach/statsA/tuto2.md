@@ -6,8 +6,6 @@ grand_parent: Teach
 nav_order: 2
 ---
 
-$$s_{xy} = \frac{1}{n-1} \sum^n_{i=1} (x_i-\bar{x}) (y_i-\bar{y})$$
-
 # Topic A3 — Summary Statistics
 
 <details open markdown="block">
