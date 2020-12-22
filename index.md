@@ -9,6 +9,6 @@ Welcome to my website.
 
 This is my personal website. You can learn more about me on [this page]({{ site.url }}/about). At the moment, I mostly [teach]({{ site.url }}/docs/teaching/teaching.html), [study]({{ site.url }}/docs/study/study.html) and try to make time for [research]({{ site.url }}/docs/research/research.html).
 
-Check out the [Blog]({{ site.url }}/docs/blog.html).
+Check out the [blog]({{ site.url }}/docs/blog.html).
 
 ![home_cover]({{ site.url }}/assets/img/cover_home.jpg)
