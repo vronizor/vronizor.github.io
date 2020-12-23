@@ -21,7 +21,7 @@ with [Martina Kirchberger](https://sites.google.com/site/mkirchberger/home) (Tri
 
 ## Other work
 
-### [Sticking Together: The impact of cooperatives on forced displacement in Colombia]({{ site.url }}/docs/research/assets/coop-colombia/coop-colombia.pdf)
+### [Sticking Together: The impact of cooperatives on forced displacement in Colombia](/docs/research/assets/coop-colombia/coop-colombia.pdf)
 
 MSc Thesis, Universitat de Barcelona, 2018. Advisor: Prof. [Enrique López-Bazo](https://ideas.repec.org/e/plo11.html)
 {: .lh-tight .fw-300 }

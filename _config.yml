@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: VinceTh
+title: Vincent Thorne
 #email: vthorne@pm.me
 #description: >- # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
@@ -40,7 +40,7 @@ color_scheme: custom
 # Build settings
 markdown: kramdown
 
-theme: minima
+# theme: minima
 
 plugins:
   - jekyll-feed
@@ -48,12 +48,9 @@ plugins:
 
 remote_theme: pmarsceill/just-the-docs
 
-compress_html:
-  blanklines: true
-
-mathjax:
-  source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
-  config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
+# mathjax:
+#   source: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+#   config: "window.MathJax = { tex: { packages: ['base', 'ams'] }, loader: { load: ['ui/menu', '[tex]/ams'] } }"
 
 compress_html:
   clippings: all

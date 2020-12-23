@@ -7,8 +7,8 @@ nav_order: 1
 Welcome to my website.
 {: .fs-8 .fw-400 }
 
-This is my personal website. You can learn more about me on [this page]({{ site.url }}/about). At the moment, I mostly [teach]({{ site.url }}/docs/teaching/teaching.html), [study]({{ site.url }}/docs/study/study.html) and try to make time for [research]({{ site.url }}/docs/research/research.html).
+This is my personal website. You can learn more about me on [this page]({{ site.url }}/about). At the moment, I mostly [teach]({{ site.url }}/docs/teach/teach.html) and [research]({{ site.url }}/docs/research/research.html) at Trinity College, Dublin.
 
-Check out the [blog]({{ site.url }}/docs/blog.html).
+Experimenting on a [blog]({{ site.url }}/docs/blog.html) these days.
 
 ![home_cover]({{ site.url }}/assets/img/cover_home.jpg)

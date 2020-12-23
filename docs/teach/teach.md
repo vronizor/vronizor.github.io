@@ -8,7 +8,7 @@ has_toc: false
 
 # Teach
 
-Course material.
+Courses I have assisted teaching.
 {: .fs-6 .fw-300 }
 
 ## Trinity College Dublin

@@ -54,19 +54,20 @@ nav_order: 2
 
 ## Outliers & boxplot
 
-- Procedure
+Procedure:
 
-  - Calculate $\mathit{IQR} = Q_3 - Q_1$
-  - Multiply $\mathit{IQR} \times 1.5$
-  - Observation outlier if $x_i > Q_3 + 1.5 \times \mathit{IQR}$ (upper bound)
-  - OR $x_i < Q_1 - 1.5 \times \mathit{IQR}$ (lower bound)
+- Calculate $\mathit{IQR} = Q_3 - Q_1$
+- Multiply $\mathit{IQR} \times 1.5$
+- Observation outlier if $x_i > Q_3 + 1.5 \times \mathit{IQR}$ (upper bound)
+- OR $x_i < Q_1 - 1.5 \times \mathit{IQR}$ (lower bound) 
 
-  ```
-  Q1-1.5*IQR     Q1     Median   Q3      Q3+1.5*IQR
-                  -----------------
-  * |-------------|        |      |----------|    * *
-                  -----------------
-  ```
+
+```
+Q1-1.5*IQR     Q1     Median   Q3      Q3+1.5*IQR
+                -----------------
+* |-------------|        |      |----------|    * *
+                -----------------
+```
 
 ## Variance and standard deviation
 
@@ -83,7 +84,7 @@ nav_order: 2
   - if it's on the mean, =0
   - smaller than mean --> <0
   - bigger than mean --> >0
-- $\textit{z-score} = \frac{\mathit{Observation}-\mathit{Mean}}{\mathit{Std Deviation}}$
+ $\textit{z-score} = \frac{\mathit{Observation}-\mathit{Mean}}{\mathit{Std Deviation}}$
 
 ## Covariance vs correlation
 
