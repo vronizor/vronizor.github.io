@@ -52,13 +52,13 @@ remote_theme: pmarsceill/just-the-docs
 #   source: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
 #   config: "window.MathJax = { tex: { packages: ['base', 'ams'] }, loader: { load: ['ui/menu', '[tex]/ams'] } }"
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
+# compress_html:
+#   clippings: all
+#   comments: all
+#   endings: all
+#   startings: []
+#   blanklines: false
+#   profile: false
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

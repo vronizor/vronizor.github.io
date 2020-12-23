@@ -3,3 +3,8 @@ $link-color: #EF6C00;
 // $link-color: $blue-200;
 
 #more {display: none;}
+
+a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
