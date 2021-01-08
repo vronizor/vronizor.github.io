@@ -36,7 +36,7 @@ Discrete vs Continuous
 
 Expected value converges to the pop mean
 
-$ E(X) = \mu = \sum x_iP(X=x_i) $ where X = x_i is the probability of hitting x_i
+$ E(X) = \mu = \sum x_iP(X=x_i) $ where $X = x_i$ is the probability of hitting $x_i$
 
 ## Variance of a discrete RV
 
