@@ -30,7 +30,7 @@ parent: Research
 
 <span class="fs-3">
 <button onclick="btn_files()" id="btn_files">Show files</button>{: .btn .btn-outline }
-<button onclick="window.location.href ='https://vronizor.github.io/docs/research/assets/data_msc_thesis/data_msc_thesis.zip';">Download .zip</button>{: .btn .btn-outline }
+<button onclick="window.location.href ='https://vronizor.github.io/docs/research/assets/coop-colobia/data/data_msc_thesis.zip';">Download .zip</button>{: .btn .btn-outline }
 </span>
 
 [Back to papers](research.html){: .btn .btn-outline  .mt-6 }
