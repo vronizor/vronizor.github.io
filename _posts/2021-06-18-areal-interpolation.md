@@ -4,8 +4,6 @@ title: Areal interpolation
 author: Vincent Thorne
 ---
 
-# {{ page.title }}
-
 Areal interpolation lets us “distribute” variables between spatial features overlapping but with different borders, which we call incongruent. Importantly, we assume that the variable is homogeneously distributed across a given spatial feature.
 
 In R, the excellent [`areal`](https://slu-opengis.github.io/areal/index.html) package lets us do areal interpolation and control the parameters described below. The (also great) [`sf`](https://r-spatial.github.io/sf/index.html) package does have an `st_interpolate_aw` method, but it lacks some features `areal` implements.
