@@ -9,3 +9,13 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem "github-pages", "~> 215"
 
 gem "webrick", "~> 1.7"
+
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+    gem "jekyll-feed"
+    gem "jekyll-remote-theme"
+  end
+  
+
+
+gem "rake", "~> 13.0"
