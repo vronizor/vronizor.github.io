@@ -24,8 +24,8 @@ ul.posts span {
 # {{ page.title }}
 {: .d-inline-block }
 
-Work in progress
-{: .label .label-yellow }
+<!-- Work in progress
+{: .label .label-yellow } -->
 
 <ul class="posts">
    {% for post in site.posts %}
