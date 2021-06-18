@@ -5,7 +5,7 @@ permalink: /about/
 nav_order: 8
 ---
 
-I am a PhD candidate in the [economics department](https://www.tcd.ie/Economics/) at [Trinity College, Dublin](https://www.tcd.ie/). I am interested in urban and development economics. You can find my CV [here](/assets/doc/210118_CV.pdf).
+I am a PhD candidate in the [economics department](https://www.tcd.ie/Economics/) at [Trinity College, Dublin](https://www.tcd.ie/). I am interested in urban and development economics. You can find my CV [here](/assets/doc/CV.pdf).
 
 Apart from research, I enjoy [cycling](https://couraillon.cc/), [history podcasts](/docs/podcasts.html) and photography.
 
