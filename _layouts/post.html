@@ -3,6 +3,11 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} · {{ page.author }}</p>
+
+{% if page.last-edit == blank %}
+<p>{{ page.author }} · Created {{ page.date | date_to_string }}</p>
+{% else %}
+<p>{{ page.author }} · Created {{ page.date | date_to_string }} · Last edited {{ page.last-edit | date_to_string }}</p>
+{% endif %}
 
 {{ content }}
