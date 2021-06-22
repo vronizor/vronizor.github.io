@@ -13,7 +13,7 @@ When working with large datasets with millions of observations, you can quickly 
 
 # Remove and garbage collect
 
-Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. But `rm(...)` just removes *the link* to the data stored in memory. After removing, be sure to garbage collect orphan data using `gc()`: this "physically" erases all unlinked objects from your RAM, actually freeing space for the next job. [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` in my scripts is shown below (see the Clean-up section). In the same vein, restarting the RStudio session between memory-heavy scripts might give you some extra legroom.[^1]
+Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. But `rm(...)` just removes *the link* to the data stored in memory. After removing, be sure to garbage collect orphan data using `gc()`: this "physically" erases all unlinked objects from your RAM, actually freeing space for the next job.[^1] [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` in my scripts is shown below (see the Clean-up section). In the same vein, restarting the RStudio session between memory-heavy scripts might give you some extra legroom.[^2]
 
 ```r
 ### Some loading and transformations ###
@@ -126,4 +126,6 @@ gc()
 ```
 ---
 
-[^1]: The command in RStudio is `.rs.restartR()`, or under the "Session" menu. This won't work if the script is run from the command line (which I recommend for long scripts: it frees up RStudio to continue working on other scripts). `restart(...)` does exist, but I haven't experimented with it.
+[^1]: As rightly noted by my dear developper friend, garbage collection does happen automatically in R, and `gc()` just prompts R to garbage collect *right here, right now*. What I suspect from experience is that some objects are just so big that garbage collecting after removing them can make the difference between completing a script or lamentably crashing halfway through.
+
+[^2]: The command in RStudio is `.rs.restartR()`, or under the "Session" menu. This won't work if the script is run from the command line (which I recommend for long scripts: it frees up RStudio to continue working on other scripts). `restart(...)` does exist, but I haven't experimented with it.
