@@ -13,7 +13,7 @@ When working with large datasets with millions of observations, you can quickly 
 
 # Remove and garbage collect
 
-Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. But `rm(...)` just removes *the link* to the data stored in memory. After removing, be sure to garbage collect using `gc()`: this "physically" erases all unlinked objects from your RAM, actually freeing space for the next job. [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` in my scripts is shown below (see the Clean-up section). In the same vein, restarting the RStudio session between memory-heavy scripts might give you some extra legroom.[^1]
+Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. But `rm(...)` just removes *the link* to the data stored in memory. After removing, be sure to garbage collect orphan data using `gc()`: this "physically" erases all unlinked objects from your RAM, actually freeing space for the next job. [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` in my scripts is shown below (see the Clean-up section). In the same vein, restarting the RStudio session between memory-heavy scripts might give you some extra legroom.[^1]
 
 ```r
 ### Some loading and transformations ###
@@ -61,7 +61,7 @@ library(tidyverse)
 library(sf)
 library(data.table)
 library(tmap)
-options(java.parameters = '-Xmx8G')
+options(java.parameters = '-Xmx8G') # can't be larger than your RAM
 library(r5r)
 library(tictoc)
 

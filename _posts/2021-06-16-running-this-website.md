@@ -4,15 +4,15 @@ title: Running this website
 author: Vincent Thorne
 ---
 
-How to create and maintain [my personal website](http://vronizor.github.io) built on [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
+How to create and maintain [my personal website](http://vronizor.github.io) built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
 # Create the website
 
-A thorough guide is available in the [GitHub docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll). Since I first built the website things have changed but I also mostly forgot you I did it (surely my developer friend helped me).
+A thorough guide is available in the [GitHub docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll). Since I first built the website things have changed quite a bit, and I also mostly forgot how I did it (surely my developer friend was key to this step).
 
 # Running locally and maintaining
 
-The website is made out of ruby Gems. The way to keep Gems' dependencies correct is Bundler. Most of the operations should be done through Bundler.
+The website is made out of ruby Gems. The way to keep Gems' dependencies correct and compatible with one another is to use Bundler. Thus, most of the operations should be done through Bundler.
 
 1. `cd /Users/vinceth/Documents/GitHub/vronizor.github.io`
 2. `bundle exec jekyll serve` to serve the website locally
@@ -36,7 +36,7 @@ The website is made out of ruby Gems. The way to keep Gems' dependencies correct
     3. Make your changes and then push them all to GitHub.
     4. Web-search whatever problems you have left until your head explodes and you beg your developer friend to please help you.
 
-It's important to update the bundle regularly or GitHub and its Dependabot will complain about security issues. These complaints are annoying and you want to avoid them at all costs, even if that means pulling your hair over Jekyll and Gems.
+It's important to update the bundle regularly or GitHub and its Dependabot will complain about security issues. These complaints are annoying and you want to avoid them at all costs, even if that means pulling your hair over Jekyll and Gems every now and then.
 
 # Alternatives to Jekyll
 
