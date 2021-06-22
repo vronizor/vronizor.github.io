@@ -9,7 +9,7 @@ A computer's memory is where a computer stores the working data it wants to make
 
 # Using the right packages
 
-When working with large datasets with millions of observations, you can quickly run out of memory. The first step is to make sur you are working with `[data.table](https://rdatatable.gitlab.io/)`s instead of `data.frame`s. `data.table`s process *[much faster](https://h2oai.github.io/db-benchmark/)* than most other in-memory data management packages.
+When working with large datasets with millions of observations, you can quickly run out of memory. The first step is to make sur you are working with [`data.table`](https://rdatatable.gitlab.io/)s instead of `data.frame`s. `data.table`s process *[much faster](https://h2oai.github.io/db-benchmark/)* than most other in-memory data management packages.
 
 # Remove and garbage collect
 
@@ -39,7 +39,7 @@ Finally, you may slice up your data and perform the computation in a loop, and r
 
 # Can't slice it? Automate script writing
 
-Beware, however, that some operations are better executed outside a loop: if the method you use takes advantage of parallelized computation, a loop will restrict that ability. Therefore, packages like `data.table` ([when properly installed on Mac](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac)) and `[r5r](https://ipeagit.github.io/)` are at their full potential outside of loops. 
+Beware, however, that some operations are better executed outside a loop: if the method you use takes advantage of parallelized computation, a loop will restrict that ability. Therefore, packages like `data.table` ([when properly installed on Mac](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac)) and [`r5r`](https://ipeagit.github.io/) are at their full potential outside of loops. 
 
 What if you have a series of operations using these packages that would fit perfectly in a loop? My last trick for these cases is to write a script containing all the functions with all the operations you wish to perform sequentially. Then, using a loop, you can create almost instantly a number of different script that load your functions and perform the operations. Copy/paste the running of this script and you get the full power of parallelize methods in a loop-y fashion. Below is an example that illustrates that last "trick".
 
