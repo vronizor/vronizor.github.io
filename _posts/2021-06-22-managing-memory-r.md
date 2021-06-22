@@ -9,11 +9,11 @@ A computer's memory is where a computer stores the working data it wants to make
 
 # Using the right packages
 
-When working with large datasets with millions of observations, you can quickly run out of memory. The first step is to make sur you are working with [`data.table`](https://rdatatable.gitlab.io/)s instead of `data.frame`s. `data.table`s process *[much faster](https://h2oai.github.io/db-benchmark/)* than most other in-memory data management packages.
+When working with large datasets with millions of observations, you can quickly run out of memory. The first step is to make sur you are working with [`data.table`](https://rdatatable.gitlab.io/)s instead of `data.frame`s. `data.table`s process *[much faster](https://h2oai.github.io/db-benchmark/)* and memory-efficient than most other in-memory data management packages.
 
 # Remove and garbage collect
 
-Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. After removing, be sure to garbage collect using `gc()`: this erases all unlink objects from your RAM. [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` is shown below.
+Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. But `rm(...)` just removes *the link* to the data stored in memory. After removing, be sure to garbage collect using `gc()`: this "physically" erases all unlinked objects from your RAM, actually freeing space for the next job. [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` in my scripts is shown below (see the Clean-up section). In the same vein, restarting the RStudio session between memory-heavy scripts might give you some extra legroom.[^1]
 
 ```r
 ### Some loading and transformations ###
@@ -39,9 +39,9 @@ Finally, you may slice up your data and perform the computation in a loop, and r
 
 # Can't slice it? Automate script writing
 
-Beware, however, that some operations are better executed outside a loop: if the method you use takes advantage of parallelized computation, a loop will restrict that ability. Therefore, packages like `data.table` ([when properly installed on Mac](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac)) and [`r5r`](https://ipeagit.github.io/) are at their full potential outside of loops. 
+Beware, however, that some operations are better executed outside a loop: if the method you use takes advantage of parallelized computation, a loop will restrict that ability. Therefore, packages like `data.table` ([when properly installed on Mac](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac)) and [`r5r`](https://ipeagit.github.io/) work at their full potential outside loops. 
 
-What if you have a series of operations using these packages that would fit perfectly in a loop? My last trick for these cases is to write a script containing all the functions with all the operations you wish to perform sequentially. Then, using a loop, you can create almost instantly a number of different script that load your functions and perform the operations. Copy/paste the running of this script and you get the full power of parallelize methods in a loop-y fashion. Below is an example that illustrates that last "trick".
+What if you have a series of operations using these packages that would fit perfectly in a loop? My last trick for these cases is to write a script containing with all the operations you wish to perform sequentially as functions. Then, using a loop, you can create almost instantly an arbitrary number of scripts that load your functions and perform the operations. In a master script, copy-paste the lines that run each sub-script using `scource(...)` (a step that could also be automated in another script: script mania!), and you get the full power of parallelized methods in a loop-y fashion. Below is an example that illustrates that last "trick".
 
 ```r
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -124,3 +124,6 @@ source(file.path(routing.path, 'routing_2019.R'))
 rJava::.jgc(R.gc = TRUE)
 gc()
 ```
+---
+
+[^1]: The command in RStudio is `.rs.restartR()`, or under the "Session" menu. This won't work if the script is run from the command line (which I recommend for long scripts: it frees up RStudio to continue working on other scripts). `restart(...)` does exist, but I haven't experimented with it.
