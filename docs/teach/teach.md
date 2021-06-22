@@ -13,7 +13,7 @@ Courses I have assisted teaching.
 
 ## Trinity College Dublin
 
-[ECU22021 Economy of Ireland A]({{ site.url }}/docs/teach/econIrA/econIrA.html), Fall 2020<br/>
-[ECU11022 Mathematics and Statistics B]({{ site.url }}/docs/teach/mathsB/mathsB.html), Spring 2020<br/>
-[ECU11021 Mathematics and Statistics A]({{ site.url }}/docs/teach/statsA/statsA.html), Fall 2019
+[ECU22021 Economy of Ireland A]({{ site.url }}/docs/teach/econIrA/econIrA.html) · Fall 2020 · Supervised by [Prof. Alejandra Ramos](https://sites.google.com/site/alejandraramosmoreno)<br/>
+[ECU11022 Mathematics and Statistics B]({{ site.url }}/docs/teach/mathsB/mathsB.html) · Spring 2020 · Supervised by [Prof. Martina Kirchberger](https://sites.google.com/site/mkirchberger/home)<br/>
+[ECU11021 Mathematics and Statistics A]({{ site.url }}/docs/teach/statsA/statsA.html) · Fall 2019 · Supervised by [Prof. Ronan Lyons](https://twitter.com/ronanlyons/)
 
