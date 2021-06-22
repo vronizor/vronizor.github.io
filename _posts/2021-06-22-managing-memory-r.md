@@ -7,11 +7,11 @@ author: Vincent Thorne
 
 A computer's memory is where a computer stores the working data it wants to make operations on. RAM is the most common form of memory in general purpose computers. Memory should not be confused storage, which is usually located on a hard drive (slower, higher capacity) or flash storage (faster, lower capacity). In R, loaded datasets and created objects are held in memory, ready for computation. Since your memory is ([more or less](https://osxdaily.com/2010/10/08/mac-virtual-memory-swap/)) limited by your RAM capacity, it's important to manage it in order to avoid `Error: vector memory exhausted (limit reached?)` errors, which are as frustrating as unambiguous.
 
-# Using the right packages
+## Using the right packages
 
 When working with large datasets with millions of observations, you can quickly run out of memory. The first step is to make sur you are working with [`data.table`](https://rdatatable.gitlab.io/)s instead of `data.frame`s. `data.table`s process *[much faster](https://h2oai.github.io/db-benchmark/)* and memory-efficient than most other in-memory data management packages.
 
-# Remove and garbage collect
+## Remove and garbage collect
 
 Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. But `rm(...)` just removes *the link* to the data stored in memory. After removing, be sure to garbage collect orphan data using `gc()`: this "physically" erases all unlinked objects from your RAM, actually freeing space for the next job.[^1] [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` in my scripts is shown below (see the Clean-up section). In the same vein, restarting the RStudio session between memory-heavy scripts might give you some extra legroom.[^2]
 
@@ -33,11 +33,11 @@ rm(list = c('grid_panel.sf', 'grid_panel.dt', 'grid_work.dt'))
 gc()
 ```
 
-# Slice it up
+## Slice it up
 
 Finally, you may slice up your data and perform the computation in a loop, and re-assemble the pieces in a final step. If you work with multi-years datasets for example, you might have to perform some operations year-by-year, and bind all the years back together once the computations are completed.
 
-# Can't slice it? Automate script writing
+## Can't slice it? Automate script writing
 
 Beware, however, that some operations are better executed outside a loop: if the method you use takes advantage of parallelized computation, a loop will restrict that ability. Therefore, packages like `data.table` ([when properly installed on Mac](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac)) and [`r5r`](https://ipeagit.github.io/) work at their full potential outside loops. 
 
