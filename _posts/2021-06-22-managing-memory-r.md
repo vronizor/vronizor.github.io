@@ -2,7 +2,7 @@
 layout: post
 title: Managing memory in R
 author: Vincent Thorne
-last-edit: 2021-06-21
+# last-edit: 2021-06-21
 ---
 
 A computer's memory is where a computer stores the working data it wants to make operations on. RAM is the most common form of memory in general purpose computers. Memory should not be confused storage, which is usually located on a hard drive (slower, higher capacity) or flash storage (faster, lower capacity). In R, loaded datasets and created objects are held in memory, ready for computation. Since your memory is ([more or less](https://osxdaily.com/2010/10/08/mac-virtual-memory-swap/)) limited by your RAM capacity, it's important to manage it in order to avoid `Error: vector memory exhausted (limit reached?)` errors, which are as frustrating as unambiguous.
