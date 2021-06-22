@@ -7,7 +7,7 @@ nav_order: 97
 
 # Economy of Ireland A
 
-Economic history of Ireland from the 16th century to present, second year undergraduates.
+Economic history of Ireland from the 16th century to present, second year undergraduates, Fall 2020.
 {: .fs-6 .fw-300 }
 
 ## Course material

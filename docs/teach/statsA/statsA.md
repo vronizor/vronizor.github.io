@@ -9,7 +9,7 @@ has_toc: false
 
 # Maths and Statistics A
 
-Introduction to statistics, first year undergraduates.
+Introduction to statistics, first year undergraduates, Fall 2019.
 {: .fs-6 .fw-300 }
 
 ## Course material

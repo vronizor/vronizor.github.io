@@ -8,5 +8,7 @@ has_toc: false
 
 # Maths and Statistics B
 
-Introduction to mathematics, first year undergraduates.
+Introduction to mathematics, first year undergraduates, Spring 2020.
 {: .fs-6 .fw-300 }
+
+[no online content]

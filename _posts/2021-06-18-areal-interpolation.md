@@ -2,7 +2,7 @@
 layout: post
 title: Areal interpolation
 author: Vincent Thorne
-last-edit: 2021-06-18
+#last-edit: 2021-06-18
 ---
 
 Areal interpolation lets us “distribute” variables between spatial features overlapping but with different borders, which we call incongruent. Importantly, we assume that the variable is homogeneously distributed across a given spatial feature.
