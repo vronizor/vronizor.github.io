@@ -29,6 +29,8 @@ url: "https://vinceth.net" # the base hostname & protocol for your site, e.g. ht
 aux_links:
   "Twitter":
     - "https://twitter.com/vincent_thorne"
+  "RSS":
+    - "https://vinceth.net/feed.xml"
   # "Cards4Pics":
   # - "docs/cards4pics.html"
 
