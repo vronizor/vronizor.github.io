@@ -5,7 +5,7 @@ author: Vincent Thorne
 # last-edit: 2021-06-21
 ---
 
-This post was originally written by my friend and colleague [Jeff Pagel](www.jeffreypagel.com/), expanded by myself and available [here](https://barcelonavault.home.blog/2019/10/01/writing-tips-and-tricks/). It lists some useful resources for starting PhD students in economics, and more broadly for any research in social sciences. The links focus on finding research questions, best writing practices and how to approach PhD life. 
+This post was originally written by my friend and colleague [Jeff](https://www.jeffreypagel.com/), expanded by myself and available [here](https://barcelonavault.home.blog/2019/10/01/writing-tips-and-tricks/). It lists some useful resources for starting PhD students in economics, and more broadly for any research in social sciences. The links focus on finding research questions, best writing practices and how to approach PhD life. 
 
 I am reposting this here as a personal reminder, a form of archive and to spread all this good advice wider. Hope this inspires and helps some people out there!
 
