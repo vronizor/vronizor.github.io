@@ -55,8 +55,15 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-seo-tag
 
 remote_theme: pmarsceill/just-the-docs
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/thumb_small.jpeg
 
 # mathjax:
 #   source: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
