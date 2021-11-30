@@ -58,6 +58,7 @@ plugins:
   - jekyll-seo-tag
 
 remote_theme: pmarsceill/just-the-docs
+# theme: just-the-docs
 
 defaults:
   - scope:
