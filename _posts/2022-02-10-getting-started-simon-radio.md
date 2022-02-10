@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting started with Simon's Sunset Radio: regex
+title: Getting started with Simon's Sunset Radio
 author: Vincent Thorne
 #last-edit: 2022-02-09
 ---
