@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting started with Simon's Sunset Radio
+title: Getting started with Simon's Sunset Radio: regex
 author: Vincent Thorne
 #last-edit: 2022-02-09
 ---
@@ -18,7 +18,7 @@ library(xml2)
 library(rvest)
 library(stringr)
 library(data.table)
-options(timeout=10000) # increase download timeout
+options(timeout=10000) # increase download timeout threshold
 ```
 
 
@@ -35,7 +35,7 @@ Check if we see any `.mp3` links.
 
 ```R
 grep(".*\\.mp3", links.all, value = T)
-#character(0)
+# character(0)
 ```
 
 No luck — that would have been too easy!
@@ -110,7 +110,6 @@ day = "31"
 test_url = str_glue("{trunk}{year}/{month}/{day}/{year}{month}{day}{hour}{stub}")
 test_url
 # https://d27rxetjl76nhc.cloudfront.net/ondemand/2022/01/31/202201311800_1_1_Sunset_-_Simon_Caldwell.mp3
-
 
 file_name = str_glue("{year}-{month}-{day}_simon-sunset.mp3")
 
