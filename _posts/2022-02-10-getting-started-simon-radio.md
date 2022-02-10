@@ -67,7 +67,7 @@ hour
 # [1] "1800"
 ```
 
-`str_glue` from `stringr` is great because it let's you refer to variables directly in the string using curly brackets. However, since our regex code also needs the curly brackets to know how many digits to expect, I had double the curly brackets around the 4.
+`str_glue` from `stringr` is great because it let's you refer to variables directly in the string using curly brackets. However, since our regex code also needs the curly brackets to know how many digits to expect, I had to double the curly brackets around the 4.
 
 The rest of the mp3 name doesn't seem to have much to it and we may store it as is.
 
@@ -93,7 +93,7 @@ stub
 # [1] "_1_1_Sunset_-_Simon_Caldwell.mp3"
 ```
 
-We should probably add the very first part of the URL.
+We should probably add the very first part of the URL as well.
 ```R
 trunk = gsub(str_glue("^(.+/){year}/{month}/{day}/{ymdh}(.+\\.mp3)$"), "\\1", mp3_url)
 print(str_glue("{trunk}{year}/{month}/{day}/{ymdh}{stub}"))
