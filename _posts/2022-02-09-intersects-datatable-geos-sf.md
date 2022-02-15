@@ -9,7 +9,7 @@ Working with large spatial data sets in R, I was delighted to discover [Grant Mc
 
 In the example below, I am matching each trip pickup coordinates (points) with one of 263 taxi zones (polygons). In the end, I want to know how many taxi trips started in each zones. To find out to which taxi zone each pair of coordinates belongs, I use `st_intersect` from the `sf` package, and `geos_intersects_matrix` from `geos`. Surprisingly, the benchmark reveals that **when intersecting points and polygons** `sf` is about 40% faster compared to the `data.table`+`geos` team.
 
-I am in no position to say what is happening behind the scenes here, but found it interesting to report and contrast with Grant’s findings: the advantages of using `data.table`+`geos` might depend on the type of spatial operation. There might also be a better way to implement the `data.table`+`geos` version in this case that I  overlooked — if you have ideas, please let me know!
+I am in no position to say what is happening behind the scenes here, but found it interesting to report and contrast with Grant’s findings: the advantages of using `data.table`+`geos` might depend on the type of spatial operation. There might also be a better way to implement the `data.table`+`geos` version in this case that I overlooked — if you have ideas, please let me know!
 
 
 
