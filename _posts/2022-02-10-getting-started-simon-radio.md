@@ -56,7 +56,7 @@ print(paste(year, month, day))
 # [1] "2022 02 07"
 ```
 
-Using some regex, `gsub` identifies the numbers that represent each date element. Notice the digits in parenthesis which form the group that may be extracted with the second argument `\\1`. Notice as well that we can tell regex how many digits we expect in curly brackets. After many years fighting it, I finally started to "get" and enjoy regex — do yourself a favor and get your hands dirty too! Once you start getting comfortable with it's inner workings, you'll find out it's pretty powerful. There are great online tools to get acquainted with the beast: I use [regexr.com](regexr.com) a lot to test regex code.
+Using some regex, `gsub` identifies the numbers that represent each date element. Notice the digits in parenthesis which form the group that may be extracted with the second argument `\\1`. Notice as well that we can tell regex how many digits we expect in curly brackets. After many years fighting it, I finally started to "get" and enjoy regex — do yourself a favor and get your hands dirty too! Once you start getting comfortable with it's inner workings, you'll find out it's pretty powerful. There are great online tools to get acquainted with the beast: I use [regexr.com](https://regexr.com) a lot to test regex code.
 
 Back to our URL: notice how the date is repeated (all concatenated) after the day element we extracted. It seems to be followed by the show's start time, `18.00`. Let's extract that with more regex.
 
