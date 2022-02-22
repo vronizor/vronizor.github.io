@@ -18,6 +18,7 @@ library(sf)
 library(geos)
 library(data.table)
 library(microbenchmark)
+options(timeout=10000)
 
 rm(list = ls())
 gc()
