@@ -10,7 +10,7 @@ has_toc: false
 
 ## Work in progress
 
-### Bicycle-sharing systems: cycling towards cleaner cities?
+### Bicycle-share systems: cycling toward cleaner cities? Evidence from New York City.
 
 What is the impact of increasing the supply of bicycles on air pollution in cities? While research has shown that policies such as increasing the supply of public transport and limiting the access of road vehicles to urban centers decrease pollution, little is known about the effects of increasing bicycle supply. As a non-polluting alternative to public and private transport, bicycles have the potential to alleviate cities of burdens such as pollution and congestion. This paper takes advantage of the gradual roll-out of the bicycle-share system in New York City since 2013 to estimate the impact of a sharp, sudden and well-defined in time and space decrease in the relative price of cycling. I use a staggered difference-in-differences approach, comparing areas covered by bicycle-share to non-covered ones, before and after the roll-out. I use highly disaggregated pollution data and investigate the impact of bicycle-sharing on pollution at a local scale. Results show that the bicycle-share system's arrival significantly decreased the black carbon and nitric oxide concentrations of treated areas, while particulate matter seems unaffected.
 {: .fs-3 }
@@ -20,6 +20,9 @@ What is the impact of increasing the supply of bicycles on air pollution in citi
 
 with [Mathias Allemand](https://www.psychology.uzh.ch/en/areas/dev/diffges/team/allemand.html) (University of Zurich),[Martina Kirchberger](https://sites.google.com/site/mkirchberger/home) (Trinity College Dublin), [Sveta Milusheva](https://www.svetamilusheva.com/) (The World Bank), [Carol Newman](https://www.carolnewman.ie/) (Trinity College Dublin) and [Brent Roberts](https://psychology.illinois.edu/directory/profile/bwrobrts) (University of Illinois at Urbana-Champaign).
 {: .lh-tight .fw-300 }
+
+Non-cognitive skills are increasingly recognized as important determinants of labor market outcomes. To what extent these skills can be affected in adulthood remains an open question. We conducted a randomized controlled trial with low-skilled employed workers in Senegal where workers were randomly assigned to receive a training intervention designed to affect conscientiousness traits. We found that treated workers were significantly more likely to stay in their job and have higher wages nine months after the intervention. Our findings suggest that non-cognitive skills can be affected even later in the life cycle and can have substantial labor market returns.
+{: .fs-3 }
 
 ### Constructing Africa’s Cities: Measuring and Enhancing Construction Worker Welfare in Dakar
 
