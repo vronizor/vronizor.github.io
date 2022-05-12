@@ -13,7 +13,9 @@ Apart from research, I enjoy [cycling](https://couraillon.cc/), [history podcast
 
 ## Contact information
 
-Please feel free to contact me with questions regarding my research, developing content, and overall general inquiries.
+Feel free to contact me with questions regarding my research, developing content, and overall general inquiries.
+
+If you would like to meet, please use my [Calendly](https://calendly.com/thornev) page to book an appointment.
 
 Email · [thornev\[at\]tcd\[dot\]ie](mailto:thornev[at]tcd[dot]ie)
 {: .fw-300 }
