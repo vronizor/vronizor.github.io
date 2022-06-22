@@ -270,7 +270,7 @@ DEPENDENCIES
   jekyll-remote-theme
   jekyll-seo-tag
   just-the-docs
-  rake (~> 13.0)
+  rake
   webrick
 
 BUNDLED WITH

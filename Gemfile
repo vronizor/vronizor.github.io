@@ -22,4 +22,4 @@ group :jekyll_plugins do
   
 
 
-gem "rake", "~> 13.0"
+gem "rake"
