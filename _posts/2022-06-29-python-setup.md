@@ -9,7 +9,7 @@ My punctual use of Python lead to a rocky situation on my computer: multiple ins
 
 ![xkcd comic python environment](https://imgs.xkcd.com/comics/python_environment.png)
 
-That was until my colleague took the time the other day to teach me his own protocol to install and maintain a healthy Python ecosystem. This post will walk the reader through the steps that helped me achieve Python sanity on macOS.
+That was until my colleague [Matteo](https://ie.linkedin.com/in/matteo-pograxha-b9a822148) took the time the other day to teach me his own protocol to install and maintain a healthy Python ecosystem. This post will walk the reader through the steps that helped me achieve Python sanity on macOS.
 
 ## The Steps
 
