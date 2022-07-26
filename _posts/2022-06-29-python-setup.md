@@ -54,6 +54,14 @@ Accustomed to RStudio and other statistical IDEs, Spyder is a close enough cousi
 
 **Important**: if you create a new virtual environment, you will have to make sure that it has `spyder-kernels` installed (step 1) and re-link Spyder to that new environment (step 2).
 
+## Updating and sharing your environment
+
+1. Export a list of packages with their version to a text file
+   `pip freeze > requirements.txt`
+2. Update the packages listed in `requirements.txt`
+   `pip install --upgrade -r requirements.txt`
+3. Send `requirements.txt` to someone, and they just need to `pip install -r requirements.txt` to install all the packages
+
 ## If nothing works
 
 Take a deep breath and ask your knowledgeable friends and colleagues to take a look at your computer and help you figure things out. There is light at the end of the Python tunnel!
