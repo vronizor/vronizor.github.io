@@ -7,7 +7,7 @@ nav_order: 8
 
 
 
-<img src="../assets/img/portrait_edited_ap.jpg" style="max-width:50%; padding-left:30px; padding-bottom:30px" align="right">
+<img src="assets/img/portrait_edited_ap_smaller.jpg" style="max-width:50%; padding-left:30px; padding-bottom:30px" align="right">
 
 I am a PhD candidate in the [Department of Economics](https://www.tcd.ie/Economics/) at [Trinity College, Dublin](https://www.tcd.ie/) and an [Irish Research Council](https://research.ie/) Scholar. 
 
@@ -23,3 +23,4 @@ If you would like to meet, please use my [Calendly](https://calendly.com/thornev
 
 Email · [thornev\[at\]tcd\[dot\]ie](mailto:thornev[at]tcd[dot]ie)
 {: .fw-300 }
+
