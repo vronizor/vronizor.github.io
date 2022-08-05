@@ -7,7 +7,9 @@ nav_order: 8
 
 
 
-<img src="../assets/img/portrait_edited_ap_smaller.jpg" style="max-width:50%; padding-left:30px; padding-bottom:30px" align="right">
+<div class="responsive">
+    <img src="../assets/img/portrait_edited_ap.jpg">
+</div>
 
 I am a PhD candidate in the [Department of Economics](https://www.tcd.ie/Economics/) at [Trinity College, Dublin](https://www.tcd.ie/) and an [Irish Research Council](https://research.ie/) Scholar. 
 
