@@ -2,18 +2,18 @@
 layout: post
 title: Managing memory in R
 author: Vincent Thorne
-# last-edit: 2021-06-21
+last-edit: 2022-11-01
 ---
 
 A computer's memory is where a computer stores the working data it wants to make operations on. RAM is the most common form of memory in general purpose computers. Memory should not be confused storage, which is usually located on a hard drive (slower, higher capacity) or flash storage (faster, lower capacity). In R, loaded datasets and created objects are held in memory, ready for computation. Since your memory is ([more or less](https://osxdaily.com/2010/10/08/mac-virtual-memory-swap/)) limited by your RAM capacity, it's important to manage it in order to avoid `Error: vector memory exhausted (limit reached?)` errors, which are as frustrating as unambiguous.
 
 ## Using the right packages
 
-When working with large datasets with millions of observations, you can quickly run out of memory. The first step is to make sur you are working with [`data.table`](https://rdatatable.gitlab.io/)s instead of `data.frame`s. `data.table`s process *[much faster](https://h2oai.github.io/db-benchmark/)* and memory-efficient than most other in-memory data management packages.
+When working with large datasets with millions of observations, you can quickly run out of memory. The first step is to make sur you are working with [`data.table`](https://rdatatable.gitlab.io/)s instead of `data.frame`s. `data.table`s processes are *[much faster](https://h2oai.github.io/db-benchmark/)* and more memory-efficient than most other in-memory data management packages.
 
 ## Remove and garbage collect
 
-Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. But `rm(...)` just removes *the link* to the data stored in memory. After removing, be sure to garbage collect orphan data using `gc()`: this "physically" erases all unlinked objects from your RAM, actually freeing space for the next job.[^1] [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` in my scripts is shown below (see the Clean-up section). In the same vein, restarting the RStudio session between memory-heavy scripts might give you some extra legroom.[^2]
+Second, be sure to remove unused objects: use the `rm(<object>)` or `rm(list = c('<object1>', '<object2>', ...))` if you have multiple objects. Bear in mind, however, that `rm(...)` just removes *the link* to the data stored in memory. After removing, be sure to garbage collect orphan data using `gc()`: this "physically" erases all unlinked objects from your RAM, actually freeing space for the next job.[^1] [This video](https://www.youtube.com/watch?v=2JasKMJonaQ) is a nice and short introduction to garbage collection for non-programmers. A typical use of `rm(...)` and `gc()` in my scripts is shown below (see the Clean-up section). In the same vein, restarting the RStudio session between memory-heavy scripts might give you some extra legroom.[^2]
 
 ```r
 ### Some loading and transformations ###
@@ -41,7 +41,7 @@ Finally, you may slice up your data and perform the computation in a loop, and r
 
 Beware, however, that some operations are better executed outside a loop: if the method you use takes advantage of parallelized computation, a loop will restrict that ability. Therefore, packages like `data.table` ([when properly installed on Mac](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac)) and [`r5r`](https://ipeagit.github.io/) work at their full potential outside loops. 
 
-What if you have a series of operations using these packages that would fit perfectly in a loop? My last trick for these cases is to write a script containing all the operations you wish to perform sequentially as functions. Then, using a loop, you can create almost instantly an arbitrary number of scripts that load your functions and perform the operations. In a master script, copy-paste the lines that run each sub-script using `scource(...)` (a step that could also be automated in another script: script mania!), and you get the full power of parallelized methods in a loop-y fashion. Below is an example that illustrates that last "trick".
+What if you have a serie of operations using these packages that would fit perfectly in a loop? My last trick for these cases is to write a script containing all the operations you wish to perform sequentially as functions. Then, using a loop, you can create almost instantly an arbitrary number of scripts that load your functions and perform the operations. In a master script, copy-paste the lines that run each sub-script using `scource(...)` (a step that could also be automated in another script: script mania!), and you get the full power of parallelized methods in a loop-y fashion. Below is an example that illustrates that last "trick".
 
 ```r
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~#
