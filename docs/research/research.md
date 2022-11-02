@@ -11,10 +11,10 @@ has_toc: false
 ## Work in progress
 
 <ul>
-	<li><b><i>Bicycle-share systems: cycling toward cleaner cities? Evidence from New York City</i></b>
+	<li><b><i><a href="https://www.vinceth.net/assets/doc/thorne-jmp_cycling-cleaner_latest.pdf">Cycling Toward Cleaner Cities? Evidence from New York City's Bike Share Program</a></i></b>
 	<details><summary>[Abstract]</summary>
   <p>
-  What is the impact of increasing the supply of bicycles on air pollution in cities? While research has shown that policies such as increasing the supply of public transport and limiting the access of road vehicles to urban centers decrease pollution, little is known about the effects of increasing bicycle supply. As a non-polluting alternative to public and private transport, bicycles have the potential to alleviate cities of burdens such as pollution and congestion. This paper takes advantage of the gradual roll-out of the bicycle-share system in New York City since 2013 to estimate the impact of a sharp, sudden and well-defined in time and space decrease in the relative price of cycling. I use a staggered difference-in-differences approach, comparing areas covered by bicycle-share to non-covered ones, before and after the roll-out. I use highly disaggregated pollution data and investigate the impact of bicycle-sharing on pollution at a local scale. Results show that the bicycle-share system's arrival significantly decreased the black carbon and nitric oxide concentrations of treated areas, while particulate matter seems unaffected.
+  What is the impact of cycling on cities' air quality? This paper leverages the staggered roll-out of New York City's bike share program to estimate the effect of cycling on air pollution concentrations. I combine the universe of bike share trips with ground-level, high-resolution observational air ollution measures between 2009 and 2019. The bike share data is used to map areas served by bike share, which I compare to unserved areas using a staggered difference-in-differences strategy to retrieve causal estimates. I find that the arrival of bike share is associated with a 3 to 13% reduction in the concentrations of pollutants associated with road traffic. In addition, I show that the introduction of bike share is associated with a decrease in short taxi trips in areas served by bike share, which I interpret as suggestive evidence that bike share reduces road traffic.
   </p></details>
   <p></p>
   </li>
