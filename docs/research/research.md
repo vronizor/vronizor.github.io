@@ -8,7 +8,7 @@ has_toc: false
 
 # {{ page.title }}
 
-## Work in progress
+## Working papers
 
 <ul>
 	<li><b><i><a href="https://www.vinceth.net/assets/doc/thorne-jmp_cycling-cleaner_latest.pdf">Cycling Toward Cleaner Cities? Evidence from New York City's Bike Share Program</a></i></b>
@@ -26,7 +26,11 @@ has_toc: false
   </p></details>
   <p></p>
   </li>
+</ul>
 
+## Work in progress
+
+<ul>
   <li><b><i>Constructing Africa’s Cities: Measuring and Enhancing Construction Worker Welfare in Dakar</i></b> (with <a href="https://sites.google.com/site/mkirchberger/home">Martina Kirchberger</a>, <a href="https://www.svetamilusheva.com/">Sveta Milusheva</a>, and <a href="https://www.carolnewman.ie/">Carol Newman</a>)
   <p></p>
   </li>

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Economy of Ireland A
+title: Economy of Ireland – Historical Perspectives
 parent: Teach
 nav_order: 97
 ---
 
-# Economy of Ireland A
+# Economy of Ireland: Historical Perspectives
 
 Economic history of Ireland from the 16th century to present, second year undergraduates, Fall 2020.
 {: .fs-6 .fw-300 }
