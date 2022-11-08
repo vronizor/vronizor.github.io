@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 nav_order: 8
 nav_exclude: true
-redirect_to:
-  - https://vinceth.net
+redirect_to: /
 ---
 
 
