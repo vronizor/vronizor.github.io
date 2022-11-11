@@ -11,7 +11,7 @@ Welcome to my website!
     <img src="../assets/img/portrait_edited_ap_smaller2.jpg">
 </div>
 
-I am a PhD candidate in the [Department of Economics](https://www.tcd.ie/Economics/) at Trinity College, Dublin, an [Irish Research Council](https://research.ie/) Scholar, and affiliated to [Trinity Impact Evaluation](https://www.tcd.ie/time/) research centre.
+I am a PhD candidate in the [Department of Economics](https://www.tcd.ie/Economics/) at Trinity College Dublin, an [Irish Research Council](https://research.ie/) Scholar, and affiliated to [Trinity Impact Evaluation](https://www.tcd.ie/time/) research centre.
 
 I am an applied microeconomist with interests in **urban** economics, **development** economics and **environmental** economics. 
 
