@@ -11,9 +11,9 @@ Welcome to my website!
     <img src="../assets/img/portrait_edited_ap_smaller2.jpg">
 </div>
 
-I am a PhD candidate in the [Department of Economics](https://www.tcd.ie/Economics/) at Trinity College Dublin, an [Irish Research Council](https://research.ie/) Scholar, and affiliated to [Trinity Impact Evaluation](https://www.tcd.ie/time/) research centre.
+I am a PhD candidate in the [Department of Economics](https://www.tcd.ie/Economics/) at Trinity College Dublin, an [Irish Research Council](https://research.ie/) Scholar, and affiliated to the [Trinity Impact Evaluation](https://www.tcd.ie/time/) research centre.
 
-I am an applied microeconomist with interests in **urban** economics, **development** economics and **environmental** economics. 
+I am an applied microeconomist with interests in **urban**, **development** and **environmental** economics. 
 
 My [Job Market Paper](assets/doc/thorne-jmp_cycling-cleaner_latest.pdf) examines the impact of cycling infrastructure on air pollution concentrations. 
 
