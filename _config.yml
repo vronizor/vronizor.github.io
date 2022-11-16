@@ -30,6 +30,8 @@ search_enabled: false
 aux_links:
   "Twitter":
     - "https://twitter.com/vincent_thorne"
+  "Mastodon":
+    - "https://econtwitter.net/@vinceth"
   "RSS":
     - "https://vinceth.net/feed.xml"
   # "Cards4Pics":
