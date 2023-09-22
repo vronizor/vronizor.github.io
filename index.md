@@ -16,5 +16,5 @@ In September 2023, I will join the Paris School Economics as a Postdoc Researche
 
 I am an applied microeconomist with interests in **urban**, **development** and **environmental** economics. My [Job Market Paper](assets/doc/thorne-jmp_cycling-cleaner_latest.pdf) examines the impact of cycling infrastructure on air pollution concentrations in New York City. 
 
-You can download my [CV](/assets/doc/thorne-cv.pdf), get in touch via [email](mailto:thornev[at]tcd[dot]ie), or follow me on [Twitter](https://twitter.com/vincent_thorne) or <a rel="me" href="https://econtwitter.net/@vinceth">Mastodon</a>. You can learn more about my research on [this page]({{ site.url }}/docs/research/research.html). I occasionaly [blog]({{ site.url }}/docs/blog.html) about coding and data analysis.
+You can download my [CV](/assets/doc/thorne_cv.pdf), get in touch via [email](mailto:vincent[dot]thorne[at]psemail[dot]eu), or follow me on [Twitter](https://twitter.com/vincent_thorne) or <a rel="me" href="https://econtwitter.net/@vinceth">Mastodon</a>. You can learn more about my research on [this page]({{ site.url }}/docs/research/research.html). I occasionaly [blog]({{ site.url }}/docs/blog.html) about coding and data analysis.
 
