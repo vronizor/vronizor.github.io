@@ -4,6 +4,8 @@ title: Bike race GPX library
 author: Vincent Thorne
 ---
 
+![Landscape in Teruel](/assets/img/banner-gpx-lib.JPG)
+
 I'm starting a repository of GPX routes of (usually) self-supported bike races with fixed routes. These routes can serve as inspiration for my own bike trips, or as reference for anyone out there curious about them. So far I'm following these races (links point to official websites):
 
 - [Accursed Race](https://www.lostdot.cc/race-brand/the-accursed-race)
