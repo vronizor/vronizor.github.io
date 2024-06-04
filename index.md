@@ -8,7 +8,7 @@ Welcome to my website!
 {: .fs-8 .fw-400 }
 
 <div class="responsive">
-    <img src="../assets/img/portrait_edited_ap_smaller2.jpg">
+    <img src="../assets/img/PSE_v.thorne-19_elipse.png">
 </div>
 I am a Postdoctoral Researcher at the [Sustainable Long-Distance Mobility Chair](https://www.parisschoolofeconomics.eu/en/pse-partnership-programme/chairs/chair-sustainable-long-distance-mobility/) at the Paris School of Economics. I was previously a PhD candidate at Trinity College Dublin, where I was an [Irish Research Council](https://research.ie/) Scholar and affiliated to the [Trinity Impact Evaluation](https://www.tcd.ie/time/) research centre.
 

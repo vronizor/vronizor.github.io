@@ -10,7 +10,7 @@ redirect_to: /
 
 
 <div class="responsive">
-    <img src="../assets/img/portrait_edited_ap.jpg">
+    <img src="../assets/img/PSE_v.thorne-19_square.jpg">
 </div>
 
 I am a PhD candidate in the [Department of Economics](https://www.tcd.ie/Economics/) at [Trinity College, Dublin](https://www.tcd.ie/) and an [Irish Research Council](https://research.ie/) Scholar. 
