@@ -11,7 +11,10 @@ has_toc: false
 
 
 
-## Job Market Paper
+<!-- ## Job Market Paper
+<br> -->
+
+## Working papers
 <br>
 <b><a href="https://www.vinceth.net/assets/doc/thorne-jmp_cycling-cleaner_latest.pdf">Cycling Toward Cleaner Cities? Evidence from New York City's Bike Share Program</a></b>
 <details><summary>[Abstract]</summary><p>
@@ -19,9 +22,9 @@ has_toc: false
   </p></details>
   <p></p>
 
-## Working papers
 <br>
-<b><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099355203272341682/idu00a4b67200c3a70461a0b91b09fd8c4c97768">Conscientiousness and labor market returns: Evidence from a field experiment in Senegal</a></b> (with <a href="https://www.psychology.uzh.ch/en/areas/dev/diffges/team/allemand.html">Mathias Allemand</a>, <a href="https://sites.google.com/site/mkirchberger/home">Martina Kirchberger</a>, <a href="https://www.svetamilusheva.com/">Sveta Milusheva</a>, <a href="https://www.carolnewman.ie/">Carol Newman</a>, and <a href="https://psychology.illinois.edu/directory/profile/bwrobrts">Brent Roberts</a>), Policy Research working paper WPS 1010378; Impact Evaluation series; Washington, D.C.: World Bank Group
+<b><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099355203272341682/idu00a4b67200c3a70461a0b91b09fd8c4c97768">Conscientiousness and labor market returns: Evidence from a field experiment in Senegal</a></b> (with <a href="https://www.psychology.uzh.ch/en/areas/dev/diffges/team/allemand.html">Mathias Allemand</a>, <a href="https://sites.google.com/site/mkirchberger/home">Martina Kirchberger</a>, <a href="https://www.svetamilusheva.com/">Sveta Milusheva</a>, <a href="https://www.carolnewman.ie/">Carol Newman</a>, and <a href="https://psychology.illinois.edu/directory/profile/bwrobrts">Brent Roberts</a>), Policy Research working paper WPS 1010378; Impact Evaluation series; Washington, D.C.: World Bank Group<br>
+*Revise and resubmit, ReStat*
 
 <details><summary>[Abstract]</summary><p>
   Non-cognitive skills are increasingly recognized as important determinants of labor market outcomes. To what extent these skills can be affected in adulthood remains an open question. We conducted a randomized controlled trial with low-skilled employed workers in Senegal where workers were randomly assigned to receive a training intervention designed to affect conscientiousness traits. We found that treated workers were significantly more likely to stay in their job and have higher wages nine months after the intervention. Our findings suggest that non-cognitive skills can be affected even later in the life cycle and can have substantial labor market returns.
@@ -33,8 +36,17 @@ has_toc: false
 <b>Constructing Africa’s Cities: Measuring and Enhancing Construction Worker Welfare in Dakar</b> (with <a href="https://sites.google.com/site/mkirchberger/home">Martina Kirchberger</a>, <a href="https://www.svetamilusheva.com/">Sveta Milusheva</a>, and <a href="https://www.carolnewman.ie/">Carol Newman</a>)
   <p></p>
 
-<b>Female Labour Force Participation and Urban Transit: Evidence from the Washington Metro</b> (with Maximilian Günnewig-Mönert)
+<b>Can Apps Save the Planet? Enhancing Urban Mobility and the Environment through Tech Adoption</b> (with [Michael Guzzardi](https://www.linkedin.com/in/michael-guzzardi-963b64a4/), <a href="https://sites.google.com/site/sefijroth/home">Sefi Roth</a>, and <a href="https://www.lse.ac.uk/geography-and-environment/people/academic-staff/hendrik-wolff">Hendrik Wolff</a>)
+
+<details><summary>[Abstract]</summary><p>
+  This paper investigates the impact of integrating bike-sharing services into a major transportation mobile app on ridership in New York City. Specifically, it examines the effect of Lyft’s acquisition of Motivate (a bike-share company) and the subsequent inclusion of their bike-sharing services in the Lyft app. Using a rich dataset from the Indego and Citi Bike systems, the study employs difference in differences and triple-difference estimators to compare ridership in New York City and Philadelphia, before and after the integration, among subscriber and non-subscriber groups. The results show a 12 percent overall increase in ridership in New York City, driven entirely by non-subscribers (marginal users), which increased usage by a staggering 79 percent. The findings contribute to the literature on public bicycle usage and technological adoption, highlighting the importance of ease-of-use features in promoting sustainable urban transit and the provision of information. Additionally, the study offers insights into the benefits of integrating different mobility (or other) services into a single platform, supporting the concept of Mobility as a Service (MaaS) in this context. Finally, our results provide valuable information for city planners and policymakers on how to promote cycling, which has the potential to significantly reduce congestion, local air pollution concentrations, and carbon emissions.
+  </p></details>
   <p></p>
+
+<b>Female Labour Force Participation and Urban Transit: Evidence from the Washington Metro</b> (with [Maximilian Günnewig-Mönert](https://mguennewigmoenert.github.io/))
+  <p></p>
+
+<b>How Does Carpooling Impact Private Car Usage And Ownership?</b> (with [Nicolas Astier](https://sites.google.com/view/nicolas-astier?authuser=2), [Paul Dutronc-Postel](https://pzuldp.github.io/pdp.io/), [Clément Malgouyres](https://sites.google.com/site/clementmalgouyres/))
 
 
 ## Other work
