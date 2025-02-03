@@ -30,8 +30,8 @@ search_enabled: false
 aux_links:
   "Twitter":
     - "https://twitter.com/vincent_thorne"
-  "Mastodon":
-    - "https://econtwitter.net/@vinceth"
+  "BlueSky":
+    - "https://bsky.app/profile/vinceth.bsky.social"
   "RSS":
     - "https://vinceth.net/feed.xml"
   # "Cards4Pics":
@@ -40,7 +40,7 @@ aux_links:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
-footer_content: 'Copyright &copy; 2019–2022 Vincent Thorne. The content of this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.'
+footer_content: 'Copyright &copy; 2019–2025 Vincent Thorne. The content of this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.'
 
 color_scheme: custom
 
