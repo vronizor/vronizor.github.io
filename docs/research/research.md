@@ -34,7 +34,7 @@ What is the impact of cycling infrastructure on air quality in cities? This pape
 <b><a href="https://doi.org/10.1596/1813-9450-10378">Conscientiousness and labor market returns: Evidence from a field experiment in Senegal</a></b><br>
 (with <a href="https://www.psychology.uzh.ch/en/areas/dev/diffges/team/allemand.html">Mathias Allemand</a>, <a href="https://sites.google.com/site/mkirchberger/home">Martina Kirchberger</a>, <a href="https://www.svetamilusheva.com/">Sveta Milusheva</a>, <a href="https://www.carolnewman.ie/">Carol Newman</a>, and <a href="https://psychology.illinois.edu/directory/profile/bwrobrts">Brent Roberts</a>)<br>
 Policy Research Working Paper 1010378<br>
-*Revise and resubmit, ReStat*
+*Accepted, ReStat*
 
 <div class ="responsive-illus" style="float: right;">
     <img src="assets/illustrations/coefplot_conscien.png" alt="Research illustration"/>

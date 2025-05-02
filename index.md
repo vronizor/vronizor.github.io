@@ -14,7 +14,13 @@ I am a Postdoctoral Researcher at the [Sustainable Long-Distance Mobility Chair]
 
 I am an applied microeconomist with interests in **urban**, **development** and **environmental** economics. My [Job Market Paper](assets/doc/thorne-jmp_cycling-cleaner_latest.pdf) examines the impact of cycling infrastructure on air pollution concentrations in New York City. 
 
-You can learn more about my research on [this page]({{ site.url }}/docs/research/research.html). I occasionally [blog]({{ site.url }}/docs/blog.html) about coding and data analysis. You can also download my [CV](/assets/doc/thorne_cv.pdf), or follow me on [Twitter](https://twitter.com/vincent_thorne) or <a rel="me" href="https://econtwitter.net/@vinceth">Mastodon</a>.
+You can learn more about my research on [this page](docs/research/research.html). I occasionally [blog](docs/blog.html) about coding and data analysis. You can also download my [CV](/assets/doc/thorne_cv.pdf), or follow me on [Twitter](https://twitter.com/vincent_thorne) or <a rel="me" href="https://econtwitter.net/@vinceth">Mastodon</a>.
 
 If you want to get in touch, feel free to [email me](mailto:vincent[dot]thorne[at]psemail[dot]eu), or book a slot during my [office hours](https://app.reclaim.ai/m/vinceth/office-hours).
 
+---
+
+**News**
+
+- <span class="mono-grey">2024-04-30</span> » Our paper [Conscientiousness and labor market returns](docs/research/research.html#working-papers) was accepted for publication at the Review of Economics and Statistics
+- <span class="mono-grey">2025-04-18</span> » I had the privilege of talking about air quality improvements in Paris, transportation polices and cycling on [CNN Newsroom](https://youtu.be/1J5WoH4xZSg)
