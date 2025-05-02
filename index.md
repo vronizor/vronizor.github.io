@@ -22,5 +22,6 @@ If you want to get in touch, feel free to [email me](mailto:vincent[dot]thorne[a
 
 **News**
 
+- <span class="mono-grey">2024-05-02</span> » [New blog post](2025/05/02/r-tutorial.html) on how to get started with R
 - <span class="mono-grey">2024-04-30</span> » Our paper [Conscientiousness and labor market returns](docs/research/research.html#working-papers) was accepted for publication at the Review of Economics and Statistics
 - <span class="mono-grey">2025-04-18</span> » I had the privilege of talking about air quality improvements in Paris, transportation polices and cycling on [CNN Newsroom](https://youtu.be/1J5WoH4xZSg)
