@@ -104,7 +104,7 @@ R offers different approaches to data visualization:
 
 - Part of the tidyverse ecosystem
 - Takes time to learn but is incredibly powerful for complex visualizations
-- I still Google (or ask LLMs) most of the things I want to do
+- I ask Google (or LLMs) for most of the things I want to do
 - A helpful resource with examples: [ggplot2 essentials](http://www.sthda.com/english/wiki/ggplot2-essentials)
 - Can also create maps, though I personally prefer `tmap` (a purely taste-based preference)
 
