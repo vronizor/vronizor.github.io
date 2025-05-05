@@ -8,6 +8,15 @@ toc: true
 
 After years of working with Stata for data analysis, I've found that R offers a powerful alternative with some distinct advantages. While there are many R tutorials available online, this guide represents my specific perspective and approach as someone who transitioned from Stata. I focus on the elements I found most useful and the challenges I encountered along the way.
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Basic Principles and Advantages vs Stata
 
 R differs fundamentally from Stata in several important ways:
