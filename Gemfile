@@ -2,24 +2,18 @@
 
 source "https://rubygems.org"
 
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-
 # gem "rails"
 
-gem "github-pages"
+# gem "github-pages", "~> 223"
+gem "jekyll", "~> 4.3"
+gem "logger", "~> 1.7"
 
-gem "webrick"
+gem "jekyll-feed", "~> 0.17.0"
 
-gem "just-the-docs"
+gem "jemoji", "~> 0.13.0"
 
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-    gem "jekyll-feed"
-    gem "jekyll-remote-theme"
-    gem 'jekyll-seo-tag'
+gem "jekyll-seo-tag", "~> 2.8"
 
-  end
-  
+gem "jekyll-redirect-from", "~> 0.16.0"
 
-
-gem "rake"
+gem "just-the-docs", "~> 0.11.1"
